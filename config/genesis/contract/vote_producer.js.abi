@@ -1,0 +1,209 @@
+{
+    "lang": "javascript",
+    "version": "1.0.9",
+    "abi": [
+        {
+            "name": "can_update",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "initProducer",
+            "args": [
+                "string",
+                "string"
+            ],
+            "amountLimit": [
+                {
+                    "token": "iost",
+                    "val": "unlimited"
+                }
+            ]
+        },
+        {
+            "name": "initAdmin",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "applyRegister",
+            "args": [
+                "string",
+                "string",
+                "string",
+                "string",
+                "string",
+                "bool"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "switchOff",
+            "args": [
+                "bool"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "applyUnregister",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "approveRegister",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "approveUnregister",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "forceUnregister",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "unregister",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "updateProducer",
+            "args": [
+                "string",
+                "string",
+                "string",
+                "string",
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "getProducer",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "logInProducer",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "logOutProducer",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "vote",
+            "args": [
+                "string",
+                "string",
+                "string"
+            ],
+            "amountLimit": [
+                {
+                    "token": "iost",
+                    "val": "unlimited"
+                }
+            ]
+        },
+        {
+            "name": "unvote",
+            "args": [
+                "string",
+                "string",
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "getVote",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "topupCandidateBonus",
+            "args": [
+                "string",
+                "string"
+            ],
+            "amountLimit": [
+                {
+                    "token": "iost",
+                    "val": "unlimited"
+                }
+            ]
+        },
+        {
+            "name": "topupVoterBonus",
+            "args": [
+                "string",
+                "string",
+                "string"
+            ],
+            "amountLimit": [
+                {
+                    "token": "iost",
+                    "val": "unlimited"
+                }
+            ]
+        },
+        {
+            "name": "stat",
+            "args": [],
+            "amountLimit": []
+        },
+        {
+            "name": "getCandidateBonus",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "candidateWithdraw",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "getVoterBonus",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        },
+        {
+            "name": "voterWithdraw",
+            "args": [
+                "string"
+            ],
+            "amountLimit": []
+        }
+    ]
+}

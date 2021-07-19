@@ -1,0 +1,62 @@
+run:
+  timeout: 4m
+  tests: false
+
+linters-settings:
+  gocyclo:
+    min-complexity: 15
+  gocritic:
+    disabled-checks:
+      - ifElseChain
+      - singleCaseSwitch
+      - commentFormatting
+      - appendAssign
+
+linters:
+  enable:
+    - govet
+    - gosimple
+    - ineffassign
+    - misspell
+    - deadcode
+    - staticcheck
+    - structcheck
+    - typecheck
+    - unconvert
+    - gofmt
+    - varcheck
+    - asciicheck
+    - bodyclose
+    - depguard
+    - dogsled
+    - gocritic
+    - goimports
+    - gomodguard
+    - goprintffuncname
+    - rowserrcheck
+    - testpackage
+    - whitespace
+  disable:
+    - errcheck
+    - unparam
+    - nolintlint
+    - gomnd
+    - goerr113
+    - stylecheck
+    - wsl
+    - nakedret
+    - nestif
+    - prealloc
+    - dupl
+    - funlen
+    - maligned
+    - lll
+    - gosec
+    - gochecknoglobals
+    - godox
+    - godot
+    - gochecknoinits
+    - gocognit
+    - goconst
+    - gocyclo
+    - unused

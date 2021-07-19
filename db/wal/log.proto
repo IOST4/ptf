@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package wal;
+option go_package = "github.com/iost-official/go-iost/v3/db/wal";
+
+message Log{
+    LogType type  = 1;
+    bytes data  = 2;
+    uint64 checksum  = 3;
+}
+
+enum LogType {
+    crcType = 0;
+    metaDataType = 2;
+    entryType = 3;
+}
+
+message Entry{
+    bytes data = 1;
+    bytes ExtraMeta = 2;
+    uint64 index = 3;
+}
